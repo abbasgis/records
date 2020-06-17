@@ -1,0 +1,52 @@
+.addlink {
+    display: none !important;
+}
+
+#id_parent_act_id {
+    pointer-events: none !important;
+}
+
+.field-tree_actions {
+    width: 70px !important;
+    display: inline-block !important;
+    padding: 2px;
+    text-align: left !important;
+}
+
+.field-act_name_tree {
+    text-align: left !important;
+    /*border:none !important;*/
+}
+
+#changelist-form .results {
+    overflow-x: auto;
+    height: 400px !important;
+}
+
+.submit-row a.deletelink {
+    display: inline-table !important;
+
+}
+
+th, td {
+    text-align: center;
+    /*border:2px solid darkgray*/
+}
+
+[name=submit_plan] {
+    color: #fff !important;
+    background-color: #f0ad4e !important;
+    border-color: #eea236 !important;
+}
+
+[name=approve_plan] {
+    color: #fff !important;
+    background-color: #398439 !important;
+    border-color: #255625 !important;
+}
+
+[name=dis_approve_plan] {
+    color: #fff !important;
+    background-color: #ac2925 !important;
+    border-color: #761c19 !important;
+}
